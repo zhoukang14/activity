@@ -1,0 +1,250 @@
+/*初始化*/
+body,
+nav,
+header,
+footer,
+section,
+article,
+div,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+a,
+img,
+p,
+em,
+i,
+span {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fee201;
+}
+a:hover {
+  color: #fee201;
+}
+li {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+img {
+  border: 0 none;
+}
+html {
+  font-size: 625%;
+}
+body {
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: #001431;
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+}
+/*主要*/
+#header {
+  width: 100%;
+  height: 2.6rem;
+}
+#header img {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  height: 0.6rem;
+  background: url(../img/tit-bg.png) no-repeat;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.3rem;
+  background-size: 100% auto;
+}
+/*********************影片介绍***************************/
+.film {
+  width: 6.17rem;
+  height: auto;
+  border: 0.02rem #0c2952 solid;
+  border-radius: 0.08rem;
+  margin: 0.07rem auto 0.15rem;
+  padding-bottom: 0.17rem;
+}
+.film-in {
+  padding: 0.12rem 0 0.15rem 0.12rem;
+  border-bottom: 1px #002f71 dashed;
+}
+.film-left {
+  float: left;
+  width: 1.76rem;
+  height: 2.5rem;
+}
+.film-left img {
+  width: 100%;
+  height: 100%;
+}
+.film-people {
+  float: left;
+  margin-left: 0.22rem;
+}
+.film-people li {
+  height: 0.48rem;
+  line-height: 0.48rem;
+  color: #bababa;
+  font-size: 0.24rem;
+}
+.film-people span {
+  color: #00a8ff;
+}
+.film-link {
+  float: left;
+  width: 2.96rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  text-align: center;
+  background: url(../img/link-bg.png) no-repeat;
+  font-size: 0.26rem;
+  background-size: 100% auto ;
+  margin: 0.08rem 0 0 0.77rem;
+}
+.critic {
+  width: 5.94rem;
+  height: auto;
+}
+.critic-tit {
+  height: 0.54rem;
+  line-height: 0.54rem;
+  color: #00a8ff;
+  font-size: 0.24rem;
+  font-weight: 500;
+  background: url(../img/critic-tit-bg.jpg) no-repeat 0.03rem 0.13rem / 0.26rem 0.26rem;
+  padding-left: 0.33rem;
+}
+.critic {
+  padding-left: 0.14rem;
+}
+.critic-list li {
+  float: left;
+  font-size: 0.24rem;
+  margin: 0 0.2rem 0.07rem 0;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  width: auto;
+  padding: 0 0.07rem;
+  background: #0048b1;
+  color: #d4c345;
+}
+.critic-list li:nth-child(3) {
+  margin-right: 0;
+}
+.critic-list li:nth-child(4),
+.critic-list li:nth-child(5),
+.critic-list li:nth-child(6) {
+  margin-right: 0.07rem;
+}
+.seckill {
+  width: 5.9rem;
+  margin: 0.12rem auto 0;
+  border-top: 1px #002f71 dashed;
+}
+.seckill span {
+  display: block;
+  line-height: 0.53rem;
+  text-align: center;
+  font-size: 0.29rem;
+  color: #ffeb00;
+}
+.seckill-vou {
+  width: 5.2rem;
+  height: 0.56rem;
+  margin: 0 auto;
+}
+.seckill-vou a {
+  width: 2.2rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  background: url(../img/vou-bg.png) no-repeat 0 0 / 100% auto;
+  font-size: 0.25rem;
+  color: #ffffff;
+  padding: 0 0.22rem 0 0.1rem;
+}
+.seckill-vou-left {
+  float: left;
+}
+.seckill-vou-right {
+  float: right;
+}
+.list-2 li {
+  margin-right: 0.08rem;
+}
+.list-2 li:nth-child(3) {
+  margin-right: 0.08rem;
+}
+.film-2 {
+  margin-bottom: 0.27rem;
+}
+.title-3 {
+  margin-bottom: 0.03rem;
+}
+/*******************六一儿童节动画片专区********************/
+.area {
+  padding-bottom: 0.3rem;
+}
+.area-list {
+  display: block;
+  width: 6.14rem;
+  margin: 0.3rem auto 0;
+  height: auto;
+  border-bottom: 1px #002f71 dashed;
+  padding-bottom: 0.24rem;
+}
+.area-left {
+  float: left;
+  width: 1.2rem;
+  height: 1.7rem;
+}
+.area-people {
+  float: left;
+  margin-left: 0.2rem;
+}
+.area-people dt {
+  font-size: 0.3rem;
+  line-height: 0.36rem;
+  color: #00a8ff;
+}
+.area-people dd {
+  line-height: 0.48rem;
+  font-size: 0.24rem;
+  color: #bababa;
+}
+.area-people dd span {
+  color: #00a8ff;
+}
+.area-link {
+  float: right;
+  width: 0.16rem;
+  height: 0.34rem;
+  background: url(../img/area-link-bg.png) no-repeat 0 0 / 0.16rem 0.34rem;
+  margin: 0.6rem 0.1rem 0 0;
+}

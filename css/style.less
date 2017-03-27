@@ -1,0 +1,73 @@
+/*初始化*/
+@aColor:#fee201;
+@fz:100rem;
+@width:100%;
+body,nav,header,footer,section,article,div,h1,h2,h3,h4,ul,li,ol,dl,dt,dd,a,img,p,em,i,span{ margin: 0; padding:0;}
+a{
+     text-decoration: none; color: @aColor;
+    &:hover{ color: @aColor;}
+}
+li{ list-style: none;}
+i,em{ font-style: normal;}
+img{ border: 0 none;}
+html{ font-size: 625%;}
+body{ max-width: 640px; min-width: 320px; margin: 0 auto; background: #001431; font-size: 24px; font-family: "微软雅黑";}
+.clearfix{*zoom: 1;}
+.clearfix:after{ content: "."; visibility: hidden; display: block; font-size: 0; height: 0; clear: both;}
+/*主要*/
+#header{ width: @width; height: 260/@fz;
+    img{ width: @width;}
+}
+.title{ width: @width; height: 60/@fz; background: url(../img/tit-bg.png)no-repeat; line-height: 60/@fz;text-align: center; font-size: 30/@fz; background-size: @width auto;}
+/*********************影片介绍***************************/
+.film{ width: 617/@fz; height: auto; border: 2/@fz #0c2952 solid; border-radius: 8/@fz; margin: 7/@fz auto 15/@fz;padding-bottom: 17/@fz;}
+.film-in{ padding: 12/@fz 0 15/@fz 12/@fz; border-bottom: 1px #002f71 dashed;}
+.film-left{ float: left; width: 176/@fz; height: 250/@fz;
+    img{ width: @width; height: 100%;}
+}
+.film-people{ float: left; margin-left: 22/@fz;
+    li{ height: 48/@fz; line-height: 48/@fz; color: #bababa; font-size: 24/@fz;}
+    span{ color: #00a8ff;}
+}
+.film-link{float: left;  width: 296/@fz; height: 54/@fz;line-height: 54/@fz; text-align: center; background: url(../img/link-bg.png)no-repeat; font-size: 26/@fz; background-size:100% auto ; margin: 8/@fz 0 0 77/@fz;}
+.critic{ width: 594/@fz; height: auto;}
+.critic-tit{ height: 54/@fz; line-height: 54/@fz; color: #00a8ff; font-size: 24/@fz; font-weight: 500; background: url(../img/critic-tit-bg.jpg)no-repeat 3/@fz 13/@fz ~"/" 26/@fz 26/@fz; padding-left: 33/@fz;}
+.critic{ padding-left: 14/@fz;}
+.critic-list li{float: left; font-size: 24/@fz; margin: 0 20/@fz 7/@fz 0; height: 40/@fz; line-height: 40/@fz; width: auto; padding: 0 7/@fz; background: #0048b1; color: #d4c345;}
+.critic-list li:nth-child(3){ margin-right: 0;}
+.critic-list li:nth-child(4),.critic-list li:nth-child(5),.critic-list li:nth-child(6){ margin-right: 7/@fz;}
+.seckill{ width: 590/@fz; margin: 12/@fz auto 0; border-top: 1px #002f71 dashed;
+    span{display: block; line-height: 53/@fz; text-align: center; font-size: 29/@fz; color: #ffeb00;}
+}
+.seckill-vou{ width: 520/@fz; height: 56/@fz;margin: 0 auto;
+        a{ width: 220/@fz; height: 56/@fz; line-height: 56/@fz; text-align: center; background: url(../img/vou-bg.png)no-repeat 0 0 ~"/" 100% auto;font-size: 25/@fz; color: #ffffff;padding:0 22/@fz 0 10/@fz;}
+}
+.seckill-vou-left{ float: left;}
+.seckill-vou-right{ float: right;}
+.list-2 li{ margin-right: 8/@fz;}
+.list-2 li:nth-child(3){ margin-right: 8/@fz;}
+.film-2{ margin-bottom: 27/@fz;}
+.title-3{ margin-bottom: 3/@fz;}
+/*******************六一儿童节动画片专区********************/
+.area{ padding-bottom: 30/@fz;}
+.area-list{display: block; width: 614/@fz; margin: 30/@fz auto 0; height: auto; border-bottom: 1px #002f71 dashed;padding-bottom: 24/@fz;}
+.area-left{ float: left; width: 120/@fz; height: 170/@fz;
+}
+.area-people{ float: left;margin-left: 20/@fz;
+    dt{ font-size: 30/@fz; line-height: 36/@fz; color: #00a8ff;}
+    dd{ line-height: 48/@fz; font-size: 24/@fz; color: #bababa;
+        span{ color: #00a8ff;}
+    }
+}
+.area-link{ float: right; width: 16/@fz; height: 34/@fz; background:url(../img/area-link-bg.png)no-repeat 0 0 ~"/" 16/@fz 34/@fz; margin:60/@fz 10/@fz 0 0;}
+
+
+
+
+
+
+
+
+
+
+
